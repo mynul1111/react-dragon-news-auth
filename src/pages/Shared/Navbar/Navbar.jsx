@@ -23,7 +23,7 @@ const Navbar = () => {
                 </div>
 
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     {navLinks}
                 </ul>
@@ -34,7 +34,7 @@ const Navbar = () => {
                         <img src={userDefaultPic} />
                     </div>
                 </label>
-                <Link>
+                <Link to="/login">
                     <button className="btn">Login</button>
                 </Link>
             </div>
